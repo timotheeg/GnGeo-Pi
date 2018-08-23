@@ -33,3 +33,15 @@ Thanks
 ------
 
 Many thanks to Mathieu Peponas, the original author of GnGeo.
+
+Fork History and Motivations
+----------------------------
+This repo is a manual merge of 2 repos:
+* https://github.com/pepone42/gngeo - Original project with commit history!
+* https://github.com/ymartel06/GnGeo-Pi - Pi/Retropie Port of the above, but not from history, from a static dump
+
+I have applied the commits from GnGeo-Pi onto gngneo after the following was done to make the commit cherry-pick correctly:
+1. move all original source to folder gngeo
+2. did DOS->UNIX EOL conversion on src/drz80/DrZ80.s
+
+This repo will be a playground to see if it is possible to port gngeo to libretro.
